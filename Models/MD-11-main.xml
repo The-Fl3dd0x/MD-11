@@ -882,16 +882,14 @@
 	</model-->
 	
 	<!-- Effects -->
-	<animation>
-		<type>shader</type>
-		<shader>chrome</shader>
-		<texture>chrome1.png</texture>
+	<effect>
+		<inherits-from>Effects/glass</inherits-from>
 		<object-name>Windshield</object-name>
 		<object-name>ldglight.left.glass</object-name>
 		<object-name>ldglight.right.glass</object-name>
 		<object-name>wing.glass.left</object-name>
 		<object-name>wing.glass.right</object-name>
-	</animation>
+	</effect>
 	
 	<effect>
 		<inherits-from>Aircraft/MD-11/Models/Effects/engine</inherits-from>
