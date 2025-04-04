@@ -1526,7 +1526,7 @@ var setup = func() {
 		"mipmapping": 1
 	});
 	
-	display.addPlacement({"node": "ead.screen"});
+	display.addPlacement({"node": "ead.screen", "texture": "emissive"});
 	
 	var geDialsGroup = display.createGroup();
 	var geTapesGroup = display.createGroup();

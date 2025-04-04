@@ -2411,8 +2411,8 @@ var setup = func() {
 		"mipmapping": 1
 	});
 	
-	pfd1Display.addPlacement({"node": "pfd1.screen"});
-	pfd2Display.addPlacement({"node": "pfd2.screen"});
+	pfd1Display.addPlacement({"node": "pfd1.screen", "texture": "emissive"});
+	pfd2Display.addPlacement({"node": "pfd2.screen", "texture": "emissive"});
 	
 	var pfd1Group = pfd1Display.createGroup();
 	var pfd2Group = pfd2Display.createGroup();

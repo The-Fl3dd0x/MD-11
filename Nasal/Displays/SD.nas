@@ -1665,7 +1665,7 @@ var setup = func() {
 		"mipmapping": 1
 	});
 	
-	display.addPlacement({"node": "sd.screen"});
+	display.addPlacement({"node": "sd.screen", "texture": "emissive"});
 	
 	var configGroup = display.createGroup();
 	var conseqGroup = display.createGroup();

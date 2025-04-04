@@ -412,9 +412,9 @@ var setup = func() {
 		"mipmapping": 1
 	});
 	
-	mcdu1Display.addPlacement({"node": "mcdu1.screen"});
-	mcdu2Display.addPlacement({"node": "mcdu2.screen"});
-	mcdu3Display.addPlacement({"node": "mcdu3.screen"});
+	mcdu1Display.addPlacement({"node": "mcdu1.screen", "texture": "emissive"});
+	mcdu2Display.addPlacement({"node": "mcdu2.screen", "texture": "emissive"});
+	mcdu3Display.addPlacement({"node": "mcdu3.screen", "texture": "emissive"});
 	
 	var mcdu1Group = mcdu1Display.createGroup();
 	var mcdu2Group = mcdu2Display.createGroup();

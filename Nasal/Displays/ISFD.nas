@@ -358,7 +358,7 @@ var setup = func() {
 		"mipmapping": 1
 	});
 	
-	display.addPlacement({"node": "isfd.screen"});
+	display.addPlacement({"node": "isfd.screen", "texture": "emissive"});
 	
 	var isfdGroup = display.createGroup();
 	

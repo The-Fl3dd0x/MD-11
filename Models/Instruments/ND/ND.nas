@@ -69,7 +69,7 @@ var _list = setlistener("sim/signals/fdm-initialized", func() {
         "mipmapping": 1
     });
 
-    nd_display.cpt.addPlacement({"node": placement_left});
+    nd_display.cpt.addPlacement({"node": placement_left, "texture": "emissive"});
     var group = nd_display.cpt.createGroup();
     NDCpt.newMFD(group, nd_display.cpt);
     NDCpt.update();
@@ -83,7 +83,7 @@ var _list = setlistener("sim/signals/fdm-initialized", func() {
         "mipmapping": 1
     });
 
-    nd_display.fo.addPlacement({"node": placement_right});
+    nd_display.fo.addPlacement({"node": placement_right, "texture": "emissive"});
     var group = nd_display.fo.createGroup();
     NDFo.newMFD(group, nd_display.fo);
     NDFo.update();
